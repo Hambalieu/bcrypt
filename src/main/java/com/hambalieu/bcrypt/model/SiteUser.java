@@ -13,7 +13,7 @@ public class SiteUser {
     String password;
 
 
-    @OneToMany(mappedBy = "postsOfUser", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "postsByUser", cascade = CascadeType.ALL)
     @OrderBy("text")
     List<Posts> postsOfThisUser;
 
@@ -33,6 +33,16 @@ public class SiteUser {
         this.username = username;
         this.password = password;
     }
+
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
 
     public String getUsername() {
         return username;

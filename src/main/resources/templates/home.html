@@ -8,7 +8,7 @@
     <title>Recipe Home</title>
 </head>
 <body>
-<h1> th:text="${'Yaay! ' + username + ' you are in the Application Pretty Cool!}"</h1>
+<h1 th:text="${'Yaay!, ' + username + ', you are in the Application Pretty Cool!'}"></h1>
 <form action="/add-post" th:method="post">
     <input type="hidden" name="siteUserId" th:value="${siteUser.id}">
     <label for="text">Add a Post</label>

@@ -33,7 +33,7 @@ public class HomeController {
     public RedirectView addPost(long siteUserId, String text) {
         SiteUser postsByUser = siteUserRepository.getById(siteUserId);
         Posts postsToAdd = new Posts(text);
-        postsToAdd.setPostsOfUser(postsByUser);
+        postsToAdd.setPostsByUser(postsByUser);
         postsRepository.save(postsToAdd);
         String username = postsByUser.getUsername();
 
