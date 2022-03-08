@@ -1,3 +1,4 @@
+
 # Manual Auth with Bcrypt
 
 #### Lab 14 Hambalieu Jallow
@@ -25,6 +26,12 @@
 
 - Use Bcrypt to hash all passwords stored on the site.
 
+### PORT
+-Listening on Port 5432
 
 ####Time
 - The lab took me about 4 hours to complete
+
+### Reference 
+- [Class 14 Demo](https://github.com/codefellows/seattle-code-java-401d14/tree/main/class-14/demo/bcryptdemod14/bcryptdemod14)
+
