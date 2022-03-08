@@ -33,7 +33,7 @@ public class UserController {
         }
         else
         {
-            return new RedirectView("/home");
+            return new RedirectView("/home/" + username);
         }
 
     }

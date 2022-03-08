@@ -14,8 +14,8 @@ public class Posts {
 
     public Posts()
     {
-
     }
+
     public Posts(String text) {
         this.text = text;
     }
@@ -35,7 +35,7 @@ public class Posts {
         return postsByUser;
     }
 
-    public void setPostsOfUser(SiteUser postsByUser) {
+    public void setPostsByUser(SiteUser postsByUser) {
         this.postsByUser = postsByUser;
     }
 
